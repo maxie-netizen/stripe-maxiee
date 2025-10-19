@@ -1,0 +1,19 @@
+{
+  "telegram_session": {
+    "phone_number": null,
+    "api_id": "22411597",
+    "api_hash": "72c759a0fb52a7abeff239ff70d97e21",
+    "is_authenticated": false
+  },
+  "admins": [7802048260],
+  "monitoring": {
+    "enabled": false,
+    "monitored_channels": [],
+    "destination_channel": null
+  },
+  "system": {
+    "last_setup_step": 0,
+    "current_page": 0,
+    "items_per_page": 10
+  }
+}
