@@ -17,14 +17,16 @@ WISEACRE_COOKIES = {
     'sbjs_migrations': '1418474375998%3D1',
     'sbjs_current_add': 'fd%3D2025-10-18%2020%3A59%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwiseacrebrew.com%2F',
     'sbjs_first_add': 'fd%3D2025-10-18%2020%3A59%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwiseacrebrew.com%2F',
-    'sbjs_current': 'typ%3Dreferral%7C%7C%7Csrc%3Dwiseacrebrew.com%7C%7C%7Cmdm%3Dreferral%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%2F%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29',
+    'sbjs_current': '%C2%9E%C3%A9e',
     'sbjs_first': 'typ%3Dreferral%7C%7C%7Csrc%3Dwiseacrebrew.com%7C%7C%7Cmdm%3Dreferral%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%2F%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29',
     'sbjs_udata': 'vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%20Chrome%2F141.0.0.0%20Safari%2F537.36',
     'mtk_src_trk': '%7B%22type%22%3A%22referral%22%2C%22url%22%3A%22https%3A%2F%2Fwiseacrebrew.com%2F%22%2C%22mtke%22%3A%22(none)%22%2C%22utm_campaign%22%3A%22(none)%22%2C%22utm_source%22%3A%22wiseacrebrew.com%22%2C%22utm_medium%22%3A%22referral%22%2C%22utm_content%22%3A%22%2F%22%2C%22utm_id%22%3A%22(none)%22%2C%22utm_term%22%3A%22(none)%22%2C%22session_entry%22%3A%22https%3A%2F%2Fshop.wiseacrebrew.com%2F%22%2C%22session_start_time%22%3A%222025-10-18%2020%3A59%3A04%22%2C%22session_pages%22%3A%221%22%2C%22session_count%22%3A%221%22%7D',
     '__stripe_mid': 'e8951d46-1d16-4116-a35a-7b8be05c7a772426c9',
+    '__stripe_sid': '9c8c1469-acd8-4216-8ad3-0422d5a2bf485ef214',
+    'sbjs_session': 'pgs%3D11%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2Fadd-payment-method%2F',
     'wordpress_sec_dedd3d5021a06b0ff73c12d14c2f177c': 'pelejab257%7C1762032175%7CmNgJQpT0a94xiyKnlVzS3CqeSQJUyppCw4NmRrsZaUv%7C35f40c1eb81ac981915fb3422fc88f95f92081ba49056a0edfae46f05c9479d8',
     'wordpress_logged_in_dedd3d5021a06b0ff73c12d14c2f177c': 'pelejab257%7C1762032175%7CmNgJQpT0a94xiyKnlVzS3CqeSQJUyppCw4NmRrsZaUv%7Caae41ceb18df452927078d0fd7ed901dcef2e6a54cbec72043f1da3e27f84587',
-    '_ga_94LZDRFSLM': 'GS2.1.s1760824445$o2$g0$t1760824445$j60$l0$h0',
+    '_ga_94LZDRFSLM': 'GS2.1.s1760875814$o4$g1$t1760876577$j28$l0$h0',
 }
 
 WISEACRE_HEADERS = {
