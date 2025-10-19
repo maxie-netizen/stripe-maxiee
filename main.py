@@ -10,23 +10,20 @@ BOT_TOKEN = "8287016181:AAGyZ4o1fRPlhxSE8LgP9cDTUK9AEi6vI-E"
 
 # Wiseacre Brewing site cookies and headers for proper responses
 WISEACRE_COOKIES = {
-    '_fbp': 'fb.1.1760821136387.980145351698458486',
-    '_ga': 'GA1.1.1926474615.1760821139',
-    '_gcl_au': '1.1.668956566.1760821139',
-    '_ga_X4MX4PV4RP': 'GS2.1.s1760821138$o1$g0$t1760821141$j57$l0$h0',
+    '_ga': 'GA1.1.548109283.1760881743',
     'sbjs_migrations': '1418474375998%3D1',
-    'sbjs_current_add': 'fd%3D2025-10-18%2020%3A59%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwiseacrebrew.com%2F',
-    'sbjs_first_add': 'fd%3D2025-10-18%2020%3A59%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2F%7C%7C%7Crf%3Dhttps%3A%2F%2Fwiseacrebrew.com%2F',
-    'sbjs_current': '%C2%9E%C3%A9e',
-    'sbjs_first': 'typ%3Dreferral%7C%7C%7Csrc%3Dwiseacrebrew.com%7C%7C%7Cmdm%3Dreferral%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%2F%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29',
-    'sbjs_udata': 'vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%20Chrome%2F141.0.0.0%20Safari%2F537.36',
-    'mtk_src_trk': '%7B%22type%22%3A%22referral%22%2C%22url%22%3A%22https%3A%2F%2Fwiseacrebrew.com%2F%22%2C%22mtke%22%3A%22(none)%22%2C%22utm_campaign%22%3A%22(none)%22%2C%22utm_source%22%3A%22wiseacrebrew.com%22%2C%22utm_medium%22%3A%22referral%22%2C%22utm_content%22%3A%22%2F%22%2C%22utm_id%22%3A%22(none)%22%2C%22utm_term%22%3A%22(none)%22%2C%22session_entry%22%3A%22https%3A%2F%2Fshop.wiseacrebrew.com%2F%22%2C%22session_start_time%22%3A%222025-10-18%2020%3A59%3A04%22%2C%22session_pages%22%3A%221%22%2C%22session_count%22%3A%221%22%7D',
-    '__stripe_mid': 'e8951d46-1d16-4116-a35a-7b8be05c7a772426c9',
-    '__stripe_sid': '9c8c1469-acd8-4216-8ad3-0422d5a2bf485ef214',
-    'sbjs_session': 'pgs%3D11%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2Fadd-payment-method%2F',
-    'wordpress_sec_dedd3d5021a06b0ff73c12d14c2f177c': 'pelejab257%7C1762032175%7CmNgJQpT0a94xiyKnlVzS3CqeSQJUyppCw4NmRrsZaUv%7C35f40c1eb81ac981915fb3422fc88f95f92081ba49056a0edfae46f05c9479d8',
-    'wordpress_logged_in_dedd3d5021a06b0ff73c12d14c2f177c': 'pelejab257%7C1762032175%7CmNgJQpT0a94xiyKnlVzS3CqeSQJUyppCw4NmRrsZaUv%7Caae41ceb18df452927078d0fd7ed901dcef2e6a54cbec72043f1da3e27f84587',
-    '_ga_94LZDRFSLM': 'GS2.1.s1760875814$o4$g1$t1760876577$j28$l0$h0',
+    'sbjs_current_add': 'fd%3D2025-10-19%2013%3A49%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2F%7C%7C%7Crf%3D%28none%29',
+    'sbjs_first_add': 'fd%3D2025-10-19%2013%3A49%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2F%7C%7C%7Crf%3D%28none%29',
+    'sbjs_current': 'typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29',
+    'sbjs_first': 'typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29',
+    'sbjs_udata': 'vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F141.0.0.0%20Safari%2F537.36%20Edg%2F141.0.0.0',
+    'mtk_src_trk': '%7B%22type%22%3A%22typein%22%2C%22url%22%3A%22(none)%22%2C%22mtke%22%3A%22(none)%22%2C%22utm_campaign%22%3A%22(none)%22%2C%22utm_source%22%3A%22(direct)%22%2C%22utm_medium%22%3A%22(none)%22%2C%22utm_content%22%3A%22(none)%22%2C%22utm_id%22%3A%22(none)%22%2C%22utm_term%22%3A%22(none)%22%2C%22session_entry%22%3A%22https%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2F%22%2C%22session_start_time%22%3A%222025-10-19%2013%3A49%3A04%22%2C%22session_pages%22%3A%221%22%2C%22session_count%22%3A%221%22%7D',
+    'wordpress_sec_dedd3d5021a06b0ff73c12d14c2f177c': 'join09133%7C1762092809%7CyqZWkUVabY5ZtWs8bD9EwMw64qVf70733sjgcRAsAJ2%7C36d3e221cd721c43f9df98e3ca65f4deb64f8af27a8042a5ca8b051a94388deb',
+    'wordpress_logged_in_dedd3d5021a06b0ff73c12d14c2f177c': 'join09133%7C1762092809%7CyqZWkUVabY5ZtWs8bD9EwMw64qVf70733sjgcRAsAJ2%7C089333213b233d807e715377e615b7956e241845fc4fae551eca773098776c86',
+    '__stripe_mid': '0c237008-7b7e-4c37-ad39-838c63601b1b948048',
+    '__stripe_sid': 'f07353b0-2d93-41f1-ac9b-6161c91c4226162669',
+    'sbjs_session': 'pgs%3D8%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2Fadd-payment-method%2F',
+    '_ga_94LZDRFSLM': 'GS2.1.s1760881742$o1$g1$t1760883269$j60$l0$h0',
 }
 
 WISEACRE_HEADERS = {
@@ -36,14 +33,15 @@ WISEACRE_HEADERS = {
     'origin': 'https://shop.wiseacrebrew.com',
     'priority': 'u=1, i',
     'referer': 'https://shop.wiseacrebrew.com/account/add-payment-method/',
-    'sec-ch-ua': '"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
+    'sec-ch-ua': '"Microsoft Edge";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0',
     'x-requested-with': 'XMLHttpRequest',
+    # 'cookie': '_ga=GA1.1.548109283.1760881743; sbjs_migrations=1418474375998%3D1; sbjs_current_add=fd%3D2025-10-19%2013%3A49%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2F%7C%7C%7Crf%3D%28none%29; sbjs_first_add=fd%3D2025-10-19%2013%3A49%3A04%7C%7C%7Cep%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2F%7C%7C%7Crf%3D%28none%29; sbjs_current=typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29; sbjs_first=typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cmtke%3D%28none%29; sbjs_udata=vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F141.0.0.0%20Safari%2F537.36%20Edg%2F141.0.0.0; mtk_src_trk=%7B%22type%22%3A%22typein%22%2C%22url%22%3A%22(none)%22%2C%22mtke%22%3A%22(none)%22%2C%22utm_campaign%22%3A%22(none)%22%2C%22utm_source%22%3A%22(direct)%22%2C%22utm_medium%22%3A%22(none)%22%2C%22utm_content%22%3A%22(none)%22%2C%22utm_id%22%3A%22(none)%22%2C%22utm_term%22%3A%22(none)%22%2C%22session_entry%22%3A%22https%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2F%22%2C%22session_start_time%22%3A%222025-10-19%2013%3A49%3A04%22%2C%22session_pages%22%3A%221%22%2C%22session_count%22%3A%221%22%7D; wordpress_sec_dedd3d5021a06b0ff73c12d14c2f177c=join09133%7C1762092809%7CyqZWkUVabY5ZtWs8bD9EwMw64qVf70733sjgcRAsAJ2%7C36d3e221cd721c43f9df98e3ca65f4deb64f8af27a8042a5ca8b051a94388deb; wordpress_logged_in_dedd3d5021a06b0ff73c12d14c2f177c=join09133%7C1762092809%7CyqZWkUVabY5ZtWs8bD9EwMw64qVf70733sjgcRAsAJ2%7C089333213b233d807e715377e615b7956e241845fc4fae551eca773098776c86; __stripe_mid=0c237008-7b7e-4c37-ad39-838c63601b1b948048; __stripe_sid=f07353b0-2d93-41f1-ac9b-6161c91c4226162669; sbjs_session=pgs%3D8%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fshop.wiseacrebrew.com%2Faccount%2Fadd-payment-method%2F; _ga_94LZDRFSLM=GS2.1.s1760881742$o1$g1$t1760883269$j60$l0$h0',
 }
 
 # Stripe API configuration for payment method creation
@@ -54,15 +52,14 @@ STRIPE_HEADERS = {
     'origin': 'https://js.stripe.com',
     'priority': 'u=1, i',
     'referer': 'https://js.stripe.com/',
-    'sec-ch-ua': '"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
+    'sec-ch-ua': '"Microsoft Edge";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-site',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0',
 }
-
 # Stripe public key
 STRIPE_PUBLIC_KEY = "pk_live_51Aa37vFDZqj3DJe6y08igZZ0Yu7eC5FPgGbh99Zhr7EpUkzc3QIlKMxH8ALkNdGCifqNy6MJQKdOcJz3x42XyMYK00mDeQgBuy"
 
