@@ -1,0 +1,30 @@
+# Braintree Cookies for Precision Powder TX
+# Format: cookie_name=cookie_value
+# Lines starting with # are comments and will be ignored
+
+_fbp=fb.1.1760871533342.823843399900255955
+woocommerce_items_in_cart=1
+woocommerce_cart_hash=889cc450f69e6933d2e30aec095d42e8
+wp_woocommerce_session_66d51b3d86bb8ddf71b26d7baaf82cfe=t_e5abaccb078cb251edbc4d76ec2b58%7C1761044351%7C1760957951%7C%24generic%24QruAVx4z8PBXW1Ii26l0aILX1yUd7apbzadYX8S8
+sbjs_migrations=1418474375998%3D1
+sbjs_current_add=fd%3D2025-10-19%2011%3A02%3A11%7C%7C%7Cep%3Dhttps%3A%2F%2Fprecisionpowdertx.com%2Fcart%2F%3Fproduct_added_to_cart%3D207%26quantity%3D1%7C%7C%7Crf%3Dhttps%3A%2F%2Fprecisionpowdertx.com%2Fshop%2Ftest-colster%2F
+sbjs_first_add=fd%3D2025-10-19%2011%3A02%3A11%7C%7C%7Cep%3Dhttps%3A%2F%2Fprecisionpowdertx.com%2Fcart%2F%3Fproduct_added_to_cart%3D207%26quantity%3D1%7C%7C%7Crf%3Dhttps%3A%2F%2Fprecisionpowdertx.com%2Fshop%2Ftest-colster%2F
+sbjs_current=typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29
+sbjs_first=typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29
+sbjs_udata=vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F141.0.0.0%20Safari%2F537.36
+pys_session_limit=true
+pys_start_session=true
+pys_first_visit=true
+pysTrafficSource=direct
+pys_landing_page=https://precisionpowdertx.com/cart/
+last_pysTrafficSource=direct
+last_pys_landing_page=https://precisionpowdertx.com/cart/
+_gid=GA1.2.725883759.1760871747
+_tccl_visitor=e71e7411-b0d7-489f-9ef9-41d30aba7672
+_tccl_visit=e71e7411-b0d7-489f-9ef9-41d30aba7672
+pbid=090d4ee59a8b1be98001cc747f7004ab4a94d05e60fdbfb8a0a3555530b7d88e
+_ga_TLJD19XVK9=GS2.1.s1760871531$o1$g1$t1760873665$j60$l0$h0
+sbjs_session=pgs%3D5%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fprecisionpowdertx.com%2Fcheckout%2F
+_scc_session=pc=4&C_TOUCH=2025-10-19T11:34:26.430Z
+_ga=GA1.2.1954184736.1760871531
+_ga_F1N3YC0JMG=GS2.2.s1760871751$o1$g1$t1760873666$j60$l0$h0
